@@ -45,7 +45,7 @@ bash-system-maintenance-suite/
 1️⃣ Clone the Repository
 bash
 Copy code
-git clone https://github.com/SaiZollard/Bash-Scripting-Suite-for-System-Maintenance
+git clone https://github.com/priyabrat18/Bash-Scripting-Suite-for-System-Maintenance
 cd bash-system-maintenance-suite
 
 2️⃣ Make Scripts Executable
@@ -83,9 +83,7 @@ Copy code
 crontab -e
 Add this line:
 
-bash
-Copy code
-0 1 * * * /home/saiki/maintenance_suite/maintenance_suite.sh >> /home/saiki/maintenance_logs/cron_run.log 2>&1
+
 ✅ This will execute the suite daily and store all logs in cron_run.log.
 
 🧠 Developer Notes
